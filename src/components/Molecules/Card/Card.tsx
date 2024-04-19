@@ -10,7 +10,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ imageSrc, text, children }) => {
   return (
     <CardContainer>
-      <CardImage src={imageSrc} alt="Card Image" width="100%" height="auto" />
+      <CardImage src={imageSrc} alt="Card Image" />
       <Typography>{text}</Typography>
       {children}
     </CardContainer>
