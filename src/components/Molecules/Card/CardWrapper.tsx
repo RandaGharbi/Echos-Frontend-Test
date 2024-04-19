@@ -12,7 +12,7 @@ export const CardImage = styled(Image)`
   margin-bottom: 20px;
 `;
 
-export const Typography = styled.p`
+export const TypographyCard = styled.p`
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   font-size: 16px;

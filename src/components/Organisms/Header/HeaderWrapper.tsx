@@ -14,11 +14,11 @@ export const HeaderContainer = styled.header`
   align-items: center;
 `;
 
-export const Content = styled.div`
+export const HeaderContent = styled.div`
   text-align: center;
 `;
 
-export const Title = styled.h2`
+export const HeaderTitle = styled.h2`
   font-family: sans-serif;
   font-size: 2em;
   margin-bottom: 10px;
@@ -31,7 +31,7 @@ export const Title = styled.h2`
   
 `;
 
-export const Typography = styled.p`
+export const HeaderTypography = styled.p`
  font-family: sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -39,5 +39,5 @@ export const Typography = styled.p`
   letter-spacing: -1%;
   text-align: center;
   color: #212121;
-  margin: 0; /* Supprimer la marge par défaut */
+  margin: 0;
 `;

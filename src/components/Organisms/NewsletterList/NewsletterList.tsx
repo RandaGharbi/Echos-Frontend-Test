@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import NewsletterItem from "../NewsletterItem/NewsletterItem";
 import { Site, ListContainer, Section } from "./NewsletterListWrapper";

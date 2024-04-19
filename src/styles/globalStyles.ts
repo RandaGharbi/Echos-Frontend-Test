@@ -1,8 +1,4 @@
 import { createGlobalStyle } from 'styled-components'
-import { Inter } from 'next/font/google'
-
-// Définition de la police Inter avec la sous-ensemble "latin"
-const inter = Inter({ subsets: ['latin'] })
 
 export const GlobalStyle = createGlobalStyle`
   body {
