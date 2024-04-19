@@ -16,7 +16,6 @@ type Newsletter = {
 
 const NewsletterPage = () => {
   const [newsletters, setNewsletters] = useState<Newsletter[] | null>(null)
-  console.log("🚀 ~ NewsletterPage ~ newsletters:", newsletters)
 
   useEffect(() => {
     const fetchData = async () => {

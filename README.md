@@ -1,3 +1,6 @@
+# Deployed version
+[EchosLink](https://echostest.netlify.app/)
+
 # Getting started
 
 Hello there, you are a new recruit in our frontend team at Les Echos, and your first task is to implement our newsletter page.
